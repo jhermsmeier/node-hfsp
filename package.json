@@ -1,12 +1,14 @@
 {
-  "name": "hfsp",
+  "name": "hfsx",
   "version": "0.0.0",
   "description": "HFS+ File System Driver",
   "license": "MIT",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "keywords": [
     "hfs",
     "hfs+",
-    "hfs plus",
+    "hfs",
+    "plus",
     "apple",
     "osx",
     "fs",
@@ -14,23 +16,20 @@
     "system",
     "driver"
   ],
-  "main": "lib/hfs",
-  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "main": "lib/hfs.js",
   "dependencies": {},
-  "devDependencies": {
-    "blockdevice": "~0.5.0",
-    "disk": "~0.4.0",
-    "ramdisk": "~0.2.0"
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/jhermsmeier/node-hfsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/node-hfsx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-hfsx/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "homepage": "https://github.com/jhermsmeier/node-hfsp",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jhermsmeier/node-hfsp.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jhermsmeier/node-hfsp/issues"
   }
 }
